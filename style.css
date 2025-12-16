@@ -7,7 +7,7 @@ color:transparent;
 }
 
 /* we need to style all the child of div which are li */
-div li {
+div ul li {
     background: #020024;
 background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     -webkit-background-clip:text;
@@ -24,4 +24,5 @@ background-clip:text;
 color:transparent;
 
 }
+
 
