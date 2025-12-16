@@ -10,6 +10,7 @@ color:transparent;
 div li {
     background: #020024;
 background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip:text;
 background-clip: text;
 color:transparent;
 }
@@ -20,4 +21,5 @@ div > h1 {
 background: radial-gradient(circle, rgba(121, 134, 181, 1) 0%, rgba(252, 70, 107, 1) 26%, rgba(252, 70, 100, 1) 56%, rgba(117, 74, 82, 0.42) 89%);
 background-clip:text; 
 color:transparent;
+
 }
