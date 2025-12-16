@@ -1,0 +1,23 @@
+/* we need to style all the child of div which are h2 */
+div  h2 {
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+background-clip: text;
+color:transparent;
+}
+
+/* we need to style all the child of div which are li */
+div li {
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+background-clip: text;
+color:transparent;
+}
+
+/* we need to style all the direct child of div are h1 */
+div > h1 {
+   background: #7986b5;
+background: radial-gradient(circle, rgba(121, 134, 181, 1) 0%, rgba(252, 70, 107, 1) 26%, rgba(252, 70, 100, 1) 56%, rgba(117, 74, 82, 0.42) 89%);
+background-clip:text; 
+color:transparent;
+}
